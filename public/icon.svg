@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="#0f172a" />
+  <rect x="40" y="40" width="432" height="432" rx="96" stroke="#d97706" stroke-width="8" stroke-opacity="0.4" />
+  <!-- Cashier Monitor / POS Terminal -->
+  <rect x="96" y="110" width="320" height="200" rx="20" fill="#1e293b" stroke="#f59e0b" stroke-width="12" />
+  <rect x="120" y="134" width="272" height="152" rx="12" fill="#020617" />
+  <!-- Screen elements -->
+  <rect x="140" y="154" width="100" height="16" rx="4" fill="#10b981" />
+  <rect x="140" y="180" width="140" height="10" rx="3" fill="#64748b" />
+  <rect x="140" y="198" width="120" height="10" rx="3" fill="#64748b" />
+  <rect x="140" y="216" width="90" height="10" rx="3" fill="#64748b" />
+  <!-- Receipt roll / Total -->
+  <rect x="290" y="154" width="80" height="60" rx="6" fill="#334155" />
+  <text x="330" y="190" fill="#f59e0b" font-family="system-ui, sans-serif" font-weight="bold" font-size="20" text-anchor="middle">₹ POS</text>
+  <!-- Stand -->
+  <path d="M226 310 L210 380 L302 380 L286 310 Z" fill="#334155" />
+  <!-- Base / Cash Drawer -->
+  <rect x="80" y="380" width="352" height="52" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="8" />
+  <!-- Cash Drawer Keyhole & Slot -->
+  <rect x="200" y="400" width="112" height="12" rx="4" fill="#0f172a" />
+  <circle cx="130" cy="406" r="6" fill="#f59e0b" />
+</svg>

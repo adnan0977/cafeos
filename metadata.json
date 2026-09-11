@@ -1,0 +1,6 @@
+{
+  "name": "CaféOS - Restaurant POS & Operations Management System",
+  "description": "Production-ready, full-stack Restaurant and Café POS, Kitchen Display, Inventory & Recipe Management, SOP Compliance, Rider Delivery, Billing & Analytics platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

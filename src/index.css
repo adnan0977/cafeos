@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@keyframes kds-blink-border {
+  0%, 100% {
+    border-color: #ef4444;
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.6), inset 0 0 15px rgba(239, 68, 68, 0.2);
+  }
+  50% {
+    border-color: #b91c1c;
+    box-shadow: 0 0 6px rgba(239, 68, 68, 0.3), inset 0 0 5px rgba(239, 68, 68, 0.05);
+  }
+}
+
+@keyframes kds-hazard-pulse {
+  0%, 100% {
+    background-color: #dc2626;
+    color: #ffffff;
+  }
+  50% {
+    background-color: #991b1b;
+    color: #fef08a;
+  }
+}
+
+@keyframes kds-flash-badge {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.55;
+    transform: scale(0.96);
+  }
+}
+
+.kds-card-overdue {
+  animation: kds-blink-border 1.4s ease-in-out infinite;
+}
+
+.kds-banner-overdue {
+  animation: kds-hazard-pulse 1.2s ease-in-out infinite;
+}
+
+.kds-flash-overdue {
+  animation: kds-flash-badge 0.9s ease-in-out infinite;
+}
